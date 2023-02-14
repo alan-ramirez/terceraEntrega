@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button,
+a,
+i,
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus,
+p:focus,
+ul:focus,
+li:focus,
+button:focus,
+a:focus,
+i:focus,
+*:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #eeb6b6;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.form-main {
+  padding: 30px;
+  background-color: #ccbfff;
+  border: 3px solid #f0f1f1;
+}
+
+.form-signin {
+  width: 350px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+}
+
+.tab-style {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  color: black;
+  background-color: #ccbfff;
+  border: none;
+}
+
+.nav-tabs .nav-link.active, .nav-link {
+  background-color: #ffffff;
+  color: black;
+  border: none !important;
+}
+
+.nav-tabs:hover {
+  background-color: #ccbfff;
+  color: #1014f9;
+}
+
+.nav-link:hover {
+  background-color: #ffffff;
+  color: #1014f9;
+  border: none;
+}
+
+.node-bg {
+  background-color: #ffffff;
+  border-color: #1014f9;
+  color: black;
+}
+
+.form-check-input:checked {
+  background-color: #ccbfff;
+  border: none;
+}
+
+.btn-calculo {
+  font-size: 17px;
+  color: #000000;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+          transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.btn-calculo:focus,
+.btn-calculo:hover {
+  color: #1014f9;
+}
+
+.btn-calculo:focus:after,
+.btn-calculo:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.btn-calculo:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #ccbfff;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+          transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-transition-property: width, left;
+  transition-property: width, left;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#container {
+    background-color: #99c8f6;
+    color: #ffffff;
+  }
